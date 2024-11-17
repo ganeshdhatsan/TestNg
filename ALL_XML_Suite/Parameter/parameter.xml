@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="Facebook_userName" value="java"></parameter>
+	  <parameter name="Facebook_password" value="selenium"></parameter>
+    <classes>
+      <class name="Parameters_Optional.Parameter_Concept"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
